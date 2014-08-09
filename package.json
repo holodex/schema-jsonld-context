@@ -1,0 +1,36 @@
+{
+  "name": "schema-jsonld-context",
+  "version": "1.0.0",
+  "description": "returns jsonld context from json-schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openappjs/schema-jsonld-context.git"
+  },
+  "keywords": [
+    "openappjs",
+    "json-schema",
+    "schema",
+    "jsonld",
+    "linked",
+    "data",
+    "context",
+    "rdf"
+  ],
+  "author": "ahdinosaur",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/schema-jsonld-context/issues"
+  },
+  "homepage": "https://github.com/openappjs/schema-jsonld-context",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "dependencies": {
+    "schema-is-schema": "^1.0.0",
+    "xtend": "^4.0.0"
+  }
+}
