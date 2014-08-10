@@ -5,8 +5,8 @@ var isSchema = require('schema-is-schema');
 var normalizeId = require('./lib/normalizeId');
 
 module.exports = function jsonldContext (schema) {
-  // if not schema, then no context
-  if (isSchema(schema) !== true) return null;
+  // ensure schema
+  isSchema(schema, { throw: true });
 
   return schemaToContext(schema);
 };
